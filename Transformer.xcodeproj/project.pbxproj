@@ -13,6 +13,9 @@
 		CC4AB03724CB6FEC0031CE0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC4AB03524CB6FEC0031CE0F /* Main.storyboard */; };
 		CC4AB04324CB6FEC0031CE0F /* TransformerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AB04224CB6FEC0031CE0F /* TransformerTests.swift */; };
 		CC4AB04E24CB6FEC0031CE0F /* TransformerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AB04D24CB6FEC0031CE0F /* TransformerUITests.swift */; };
+		CC4AB05C24CB868D0031CE0F /* zalgo.json in Resources */ = {isa = PBXBuildFile; fileRef = CC4AB05B24CB868D0031CE0F /* zalgo.json */; };
+		CC4AB05E24CB86C10031CE0F /* ZalgoCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AB05D24CB86C10031CE0F /* ZalgoCharacters.swift */; };
+		CC4AB06024CB89890031CE0F /* ROT13.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AB05F24CB89890031CE0F /* ROT13.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		CC4AB04924CB6FEC0031CE0F /* TransformerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransformerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC4AB04D24CB6FEC0031CE0F /* TransformerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformerUITests.swift; sourceTree = "<group>"; };
 		CC4AB04F24CB6FEC0031CE0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4AB05B24CB868D0031CE0F /* zalgo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zalgo.json; sourceTree = "<group>"; };
+		CC4AB05D24CB86C10031CE0F /* ZalgoCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZalgoCharacters.swift; sourceTree = "<group>"; };
+		CC4AB05F24CB89890031CE0F /* ROT13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROT13.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +104,13 @@
 			children = (
 				CC4AB02F24CB6FEB0031CE0F /* AppDelegate.swift */,
 				CC4AB03124CB6FEB0031CE0F /* ViewController.swift */,
+				CC4AB05F24CB89890031CE0F /* ROT13.swift */,
 				CC4AB03324CB6FEC0031CE0F /* Assets.xcassets */,
 				CC4AB03524CB6FEC0031CE0F /* Main.storyboard */,
 				CC4AB03824CB6FEC0031CE0F /* Info.plist */,
 				CC4AB03924CB6FEC0031CE0F /* Transformer.entitlements */,
+				CC4AB05B24CB868D0031CE0F /* zalgo.json */,
+				CC4AB05D24CB86C10031CE0F /* ZalgoCharacters.swift */,
 			);
 			path = Transformer;
 			sourceTree = "<group>";
@@ -230,6 +239,7 @@
 			files = (
 				CC4AB03424CB6FEC0031CE0F /* Assets.xcassets in Resources */,
 				CC4AB03724CB6FEC0031CE0F /* Main.storyboard in Resources */,
+				CC4AB05C24CB868D0031CE0F /* zalgo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4AB05E24CB86C10031CE0F /* ZalgoCharacters.swift in Sources */,
 				CC4AB03224CB6FEB0031CE0F /* ViewController.swift in Sources */,
 				CC4AB03024CB6FEB0031CE0F /* AppDelegate.swift in Sources */,
+				CC4AB06024CB89890031CE0F /* ROT13.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
